@@ -1,0 +1,11 @@
+main: x.KenKOfficial.Spawn.Main.Main
+version: 1.0-Beta
+name: xKenSpawn
+author: xKenKOfficial
+description: Plugin Autorstwa xKenKOfficial
+website: https://discord.gg/2HDuZrEFTg
+
+commands:
+  setspawn:
+  spawnall:
+  spawn:

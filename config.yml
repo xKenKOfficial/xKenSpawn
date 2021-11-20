@@ -1,0 +1,59 @@
+# Tutaj mozna ustawic prefix pluginu:
+prefix: "&3&lxKenSpawn"
+
+# Tutaj mozna ustawic wiadomosc gdy dany gracz nie ma permisji:
+no_permission: "&8>> &cNie masz dostepu do tej komendy!"
+
+# Tutaj mozna ustawic wiadomosc jesli gracz nie moze wykonac /spawn (gracz):
+spawn_no_admin_execute_command: "&8>> &cNie mozesz tego wykonac!"
+
+# Tutaj mozna ustawic wiadomosc gdy danego gracza nie ma na serwerze:
+offline_player: "&8>> &cTego gracza nie ma na serwerze!"
+
+# Tutaj mozna ustawic wiadomosc jesli ilosc argumentow jest za duza:
+arguments_limit: "&8>> &cZa duza ilosc argumentow!"
+
+# Tutaj mozna ustawic wiadomosc gdy spawn zostal pomyslnie ustawiony:
+spawn_setup: "&8>> &aPomyslnie ustawiono nowy spawn!"
+
+# Tutaj mozna ustawic wiadomosc teleportacji na spawn:
+spawn_teleport: "&8>> &7Teleportacja..."
+
+# Tutaj mozna ustawic czas teleportacji na spawn (6 = 5 sekund):
+spawn_time_teleport: 6
+
+# Tutaj mozna ustawic wiadomosc z odliczaniem czasu do teleportacji:
+spawn_time_message_timer: "&8>> &7Teleportacja nastapi za&8: &b{SECONDS} &7sekund."
+
+# Tutaj mozna ustawic wiadomosc jesli teleportacja zostala przerwana:
+spawn_cancel_teleport: "&8>> &cTeleportacja zostala przerwana..."
+
+# Tutaj mozesz ustawic wiadomosc do gracza jesli zostal przeteleportowany przez administratora na spawn:
+player_spawn_teleport_admin: "&8>> &7Zostales przeteleportowany na spawn przez administratora&8: &b{ADMIN}&7!"
+
+# Tutaj mozesz ustawic wiadomosc do administratora jesli przeteleportowal danego gracza na spawn:
+admin_spawn_teleport_player: "&8>> &7Przeteleportowano gracza&8: &b{PLAYER} &7na spawn!"
+
+# Tutaj mozna ustawic wiadomosc jesli administrator teleportuje wszystkich graczy na spawn:
+spawn_all_teleport: "&8>> &aTeleportacja wszystkich graczy na spawn!"
+
+# Tutaj mozna ustawic wiadomosc dla komendy /spawn i /spawn (gracz):
+spawn_execute_usage: "&8>> &7Poprawne uzycie&8: &b/spawn lub /spawn (gracz)"
+
+# Tutaj mozna ustawic wiadomosc gdy gracz dolaczy na serwer:
+join_message: "&8[&a+&8] &b{PLAYER} &7dolaczyl na serwer."
+
+# Tutaj mozna ustawic wiadomosc gdy gracz opusci serwer:
+quit_message: "&8[&c-&8] &b{PLAYER} &7wyszedl z serwera."
+
+# Tutaj mozna recznie ustawic kordynaty spawnu:
+Spawn:
+  x: 0.0
+  y: 75.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+  world: "world"
+
+# Czy maja sie wysylac informacje o pluginie?:
+plugin_info: true
